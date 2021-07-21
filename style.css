@@ -1,0 +1,121 @@
+img {
+	border-radius: 50%;
+	width: 100px;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+}
+
+#title {
+	background: linear-gradient(6deg, rgba(217, 255, 197, 1) 0%, rgba(240, 250, 120, 1) 51%, rgba(0, 93, 112, 1) 100%);
+	text-align: center;
+	height: 2s00px;
+	bottom: 0;
+	display: table;
+	width: 100%
+}
+
+#about {
+	background-color: pink;
+	color: purple;
+	height: 400px;
+	padding: 50px;
+
+
+
+}
+
+body {
+	text-align: center;
+	background-color: white;
+}
+
+.line {
+	height: 6px;
+	background-color: #000;
+	width: 70px;
+	margin: 8px auto;
+}
+
+
+.menu {
+	list-style: none;
+	position: fixed;
+	top: 10px;
+	right: 30px;
+	cursor: pointer;
+	z-index: 10;
+
+}
+
+links {
+	float: left;
+	color: fuchsia;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	font-family: fantasy;
+	font-size: 20px
+}
+
+.links:hover {
+	background-color: aqua;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.article:hover {
+	color: fuchsia;
+}
+
+html {
+	scroll-behavior: smooth
+}
+
+#inspiration {
+	background-color: blue;
+
+
+}
+
+img {
+	transition: transform.2s;
+	border: 10px solid #AAAAAA
+}
+
+img:hover {
+	transform: scale(0.9);
+
+}
+
+#contact iframe {
+	width: 100%;
+}
+
+.contact_1 h3 {
+	display: inline;
+}
+
+.contact_1 a {
+	text-shadow: none;
+}
